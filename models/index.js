@@ -1,5 +1,12 @@
-//exporting the User and the Blog POst ==> module.exports = { User, Blog }; 
+//exporting the User, Blog Post & Comment
 const User = require('./User');
 const Blog = require('./Blog');
+const Comment = require('./Comment');
 
-module.exports = { User, Blog };
+Blog.belongsTo(User, {
+    foreignKey: 'user_id'
+  });
+
+//DEFINE RELATIONSHIP HERE BETWEEN COMMENT, USER & BLOG 
+
+module.exports = { User, Blog, Comment };

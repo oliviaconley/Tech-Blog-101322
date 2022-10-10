@@ -18,9 +18,9 @@ router.post('/', async (req, res) => {
     }
   });
 
-//create login session 
+//create login session ?????
 router.post('/login', async (req, res) => {
- //finding one user based on the username that is sent ot us in the request body 
+ //finding one user based on the username that is sent to us in the request body 
 try { const userData = await User.findOne({ where: { user: req.body.user } });
 
  if (!userData) {
@@ -50,6 +50,7 @@ try { const userData = await User.findOne({ where: { user: req.body.user } });
 }
 }); 
 
+//
 router.post('/logout', (req, res) => {
     if (req.session.logged_in) {
 //we are destroying the session, the session will also be removed from the database

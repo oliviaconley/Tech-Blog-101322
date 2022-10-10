@@ -14,5 +14,6 @@ const logout = async () => {
   }
 };
 
-//this needs to be accounted for in the VIEWS 
-document.querySelector('#logout').addEventListener('click', logout);
+document
+.querySelector('#logout') //this needs to be accounted for in the VIEWS 
+.addEventListener('click', logout);

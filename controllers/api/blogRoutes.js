@@ -2,28 +2,36 @@ const router = require('express').Router();
 const { Blog } = require('../../models');
 const withAuth = require('../../utils/auth');
 
-//POST: create new post -- /blog
+//create new post 
 router.post('/', withAuth, async (req, res) => {
 try {
     const newBlogPost = await Blog.create({
-        //WHAT DOES THIS MEAN???
-        ...req.body,
+        ...req.body, //... = spread, it's destructuring the object
       user_id: req.session.user_id,
     });
     res.status(200).json(newBlogPost);
-} catch (err) {
+} catch(err) {
     res.status(400).json(err);
 }
 
 });
 
-//DELETE: delete blog post /blog/:id
+//update blog post 
+router.put('/', withAuth, async (req,res) => {
+try { 
+   
+
+} catch(err) {
+    res.status(400).json(err);
+}
+});
+
+//delete blog post
 router.delete('/:id', withAuth, async (req, res) => {
 try {
 const blogPost = await Blog.destroy({
     where: {
         id: req.params.id,
-        user_id: req.session.user_id,
     }
 });
 if (!blogPost) {
