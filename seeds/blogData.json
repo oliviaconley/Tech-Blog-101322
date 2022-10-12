@@ -1,12 +1,34 @@
 [
     {
         "title": "Blah Blah Blah",
+        "user_id": 1,
         "description": " ", 
-        "user_id": " "
+        "date": "10/01/2022",
+        "content": ""
+        
     },
     {
-        "title": " ",
+        "title": "Blah Blah Blah",
+        "user_id": 2,
         "description": " ", 
-        "user_id": " "
-        }
+        "date": "02/05/2021 ",
+        "content": ""
+        
+    },
+    {
+        "title": "Blah Blah Blah",
+        "user_id": 3,
+        "description": " ", 
+        "date": " ",
+        "content": "09/13/2020"
+        
+    },
+    {
+        "title": "Blah Blah Blah",
+        "user_id": 4,
+        "description": " ", 
+        "date": " ",
+        "content": "07/03/2022"
+        
+    }
 ]
