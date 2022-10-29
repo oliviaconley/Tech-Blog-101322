@@ -1,34 +1,30 @@
 [
     {
-        "title": "Blah Blah Blah",
-        "user_id": 1,
-        "description": " ", 
-        "date": "10/01/2022",
-        "content": ""
+        "title": "Tried & True Tech Tricks",
+        "description": "My favorite tricks of the trade", 
+        "content": "Oh you thought this was going to be some insider information? That's where you're wrong, I am neither an insider nor do I have any information. The only trick of the trade that I've learned is that you have to actually try hard to get what you want. Crazy, right?",
+        "user_id": 2
         
     },
     {
-        "title": "Blah Blah Blah",
-        "user_id": 2,
-        "description": " ", 
-        "date": "02/05/2021 ",
-        "content": ""
+        "title": "5 Things Software Engineers NEVER Do",
+        "description": "Bet you can't guess", 
+        "content": "What sets most engineers apart? Wish I knew. Here's my attempt to figure that out. 1. They NEVER go to bed without first telling their computer 'I love you' in binary, so that it doesn't come alive and kill them in their sleep. 2. They NEVER write a line of code without first saying it out loud in a British accent (British engineers have an obvious advantage in this regard, bloody wankers). 3. They NEVER try to reprogram the birds, many have tried and well, we don't know where they are now. 4. They NEVER code and drive, they car would become too powerful if they did. 5. They NEVER bring their dead dog back to life as a robot.",
+        "user_id": 1
         
     },
     {
-        "title": "Blah Blah Blah",
-        "user_id": 3,
-        "description": " ", 
-        "date": " ",
-        "content": "09/13/2020"
+        "title": "My dog died. Here's how I brought her back digitally",
+        "description": "Hint: she's a robot now", 
+        "content": "No she's not why would you even believe that, please reference the fifth item in the blog post titled '5 Things Software Engineers NEVER Do'",
+        "user_id": 3
         
     },
     {
-        "title": "Blah Blah Blah",
-        "user_id": 4,
-        "description": " ", 
-        "date": " ",
-        "content": "07/03/2022"
+        "title": "Robots: 2005 animated film or my next tech project?",
+        "description": "I built a dog robot inspired by the movie 'Robots'", 
+        "content": "Despite all the odds as well as the warning in the fifth item in the blog post titled '5 Things Software Engineers NEVER Do', I brought my dead dog back to life as a robot using exclusively the 2005 movie 'Robots' as my guide. While she lacks some of the cuddliness of her previous non-robot self, I've found that she is much easier to care for. One day I will have to fight her to the death. I fear I may not win. Please help.",
+        "user_id": 4
         
     }
 ]

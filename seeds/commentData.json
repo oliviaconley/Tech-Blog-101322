@@ -1,0 +1,17 @@
+[
+    {
+        "comment": "Wow Olivia is such an insightful writer",
+        "user_id": 3,
+        "post_id": 1
+    },
+    {
+        "comment": "When I read this blog post to my family we all openly wept",
+        "user_id": 2,
+        "post_id": 2
+    },
+    {
+        "comment": "This post brought me back from a dark place, thank you",
+        "user_id": 1,
+        "post_id": 3
+    }
+]

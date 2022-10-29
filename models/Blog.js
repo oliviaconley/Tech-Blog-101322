@@ -19,7 +19,7 @@ Blog.init(
             type: DataTypes.STRING,
             allowNull: false,
         },
-        content: { //do i need this??? 
+        content: {  
             type: DataTypes.STRING,
             allowNull: false,
         }, 
@@ -39,7 +39,9 @@ Blog.init(
     },
     {
         sequelize,
-        timestamps: false,
+        timestamps: true, //ok figure this out Olivia 
+        updatedAt: false,
+        createdAt: 'date_created',
         freezeTableName: true,
         underscored: true,
         modelName: 'blog',

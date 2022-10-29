@@ -20,3 +20,7 @@ const commentFormHandler = async (event) => {
           }
     }
 }
+
+document
+.querySelector('.comment') 
+.addEventListener('click', commentFormHandler); //ACCOUNT FOR IN VIEWS 

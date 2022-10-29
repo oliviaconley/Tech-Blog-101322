@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { Blog } = require('../../models');
 const withAuth = require('../../utils/auth');
 
-//create new post 
+//create new blog post 
 router.post('/', withAuth, async (req, res) => {
 try {
     const newBlogPost = await Blog.create({
@@ -19,7 +19,15 @@ try {
 //update blog post 
 router.put('/', withAuth, async (req,res) => {
 try { 
-   
+const updateBlog = await Blog.update({
+    where: {
+        id: req.params.id, 
+    }
+})
+if (!updateBlog) {
+    res.status(404).json({ message: 'Blog not updated' }); 
+    return;
+  }
 
 } catch(err) {
     res.status(400).json(err);
