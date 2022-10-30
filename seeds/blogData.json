@@ -9,14 +9,14 @@
     {
         "title": "5 Things Software Engineers NEVER Do",
         "description": "Bet you can't guess", 
-        "content": "What sets most engineers apart? Wish I knew. Here's my attempt to figure that out. 1. They NEVER go to bed without first telling their computer 'I love you' in binary, so that it doesn't come alive and kill them in their sleep. 2. They NEVER write a line of code without first saying it out loud in a British accent (British engineers have an obvious advantage in this regard, bloody wankers). 3. They NEVER try to reprogram the birds, many have tried and well, we don't know where they are now. 4. They NEVER code and drive, they car would become too powerful if they did. 5. They NEVER bring their dead dog back to life as a robot.",
+        "content": "What sets most engineers apart? Wish I knew. Here's my attempt to figure that out. 1. They NEVER go to bed without first telling their computer 'I love you' in binary, so that it doesn't come alive and kill them in their sleep. 2. They NEVER write a line of code without first saying it out loud in a British accent (British engineers have an obvious advantage in this regard, bloody wankers). 3. They NEVER try to reprogram the birds, many have tried and well, we don't know where they are now. 4. They NEVER code and drive, the car would become too powerful if they did. 5. They NEVER bring their dead dog back to life as a robot.",
         "user_id": 1
         
     },
     {
-        "title": "My dog died. Here's how I brought her back digitally",
+        "title": "My dog died. Here's how I brought her back",
         "description": "Hint: she's a robot now", 
-        "content": "No she's not why would you even believe that, please reference the fifth item in the blog post titled '5 Things Software Engineers NEVER Do'",
+        "content": "No she's not a robot why would you even believe that, please reference the fifth item in the blog post titled '5 Things Software Engineers NEVER Do'",
         "user_id": 3
         
     },

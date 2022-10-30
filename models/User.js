@@ -1,6 +1,4 @@
-//this is requring both 'Model' and 'DataTypes' from Sequelize
 const { Model, DataTypes } = require('sequelize');
-
 const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');
 
@@ -46,3 +44,5 @@ User.init(
     modelName: 'user',
     }
 );  
+
+module.exports = User; 

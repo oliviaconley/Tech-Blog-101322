@@ -2,35 +2,35 @@ const User = require('./User');
 const Blog = require('./Blog');
 const Comment = require('./Comment');
 
-//Blog belongs to User
+//Blog belongsTo User
 Blog.belongsTo(User, {
-    foreignKey: 'user_id',
-    onDelete: 'cascade' //figure this out Olivia 
-  });
+  foreignKey: 'user_id',
+    onDelete: 'cascade' 
+}); 
 
 //User hasMany blogs
 User.hasMany(Blog, {
   foreignKey: 'user_id'
   }); 
 
-//Comment belongs to user
+//Comment belongsTo user
 Comment.belongsTo(User, {
   foreignKey: 'user_id',
     onDelete: 'cascade' 
 }); 
 
-//User hasMany coments
+//User hasMany comments
 User.hasMany(Comment, {
   foreignKey: 'user_id'
 }); 
 
-//Comment belongs to Blog 
+//Comment belongsTo Blog 
 Comment.belongsTo(Blog, {
   foreignKey: 'post_id',
   onDelete: 'cascade'
 }); 
 
-//Blog has many comments
+//Blog hasMany comments
 Blog.hasMany(Comment, {
   foreignKey: 'post_id'
 }); 

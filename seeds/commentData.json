@@ -1,11 +1,11 @@
 [
     {
-        "comment": "Wow Olivia is such an insightful writer",
+        "comment": "That is not a tech trick. Misleading title",
         "user_id": 3,
         "post_id": 1
     },
     {
-        "comment": "When I read this blog post to my family we all openly wept",
+        "comment": "If you spread any more information about the birds, or you will be next",
         "user_id": 2,
         "post_id": 2
     },
@@ -13,5 +13,10 @@
         "comment": "This post brought me back from a dark place, thank you",
         "user_id": 1,
         "post_id": 3
+    }, 
+    {
+        "comment": "After reading this I also built a do robot. 10/10.",
+        "user_id": 4,
+        "post_id": 4
     }
 ]

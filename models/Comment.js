@@ -34,9 +34,13 @@ Comment.init(
     },
     {
         sequelize,
-        timestamps: false,
+        timestamps: true,
+        updatedAt: false,
+        createdAt: 'date_created',
         freezeTableName: true,
         underscored: true,
         modelName: 'comment',
       }
 )
+
+module.exports = Comment; 
